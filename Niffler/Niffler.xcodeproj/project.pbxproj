@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,7 +33,18 @@
 		A9FCA79E2BEB760700A5A1D2 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCA79D2BEB760700A5A1D2 /* PasswordField.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		36D04E5D30436F8D0092834A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7468536E2B0CAE9700E48DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746853752B0CAE9700E48DFE;
+			remoteInfo = Niffler;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		36D04E5730436F8D0092834A /* NifflerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NifflerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		746853762B0CAE9700E48DFE /* Niffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Niffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746853792B0CAE9700E48DFE /* NifflerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NifflerApp.swift; sourceTree = "<group>"; };
 		7468537B2B0CAE9700E48DFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,7 +74,18 @@
 		A9FCA79D2BEB760700A5A1D2 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		36D04E5830436F8D0092834A /* NifflerUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NifflerUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		36D04E5430436F8D0092834A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		746853732B0CAE9700E48DFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +103,7 @@
 				749E20F32B0CAFD60045F4E3 /* Niffler.xctestplan */,
 				749E20F22B0CAF1D0045F4E3 /* Api */,
 				746853782B0CAE9700E48DFE /* Niffler */,
+				36D04E5830436F8D0092834A /* NifflerUITests */,
 				746853772B0CAE9700E48DFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				746853762B0CAE9700E48DFE /* Niffler.app */,
+				36D04E5730436F8D0092834A /* NifflerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +183,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		36D04E5630436F8D0092834A /* NifflerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D04E5F30436F8D0092834A /* Build configuration list for PBXNativeTarget "NifflerUITests" */;
+			buildPhases = (
+				36D04E5330436F8D0092834A /* Sources */,
+				36D04E5430436F8D0092834A /* Frameworks */,
+				36D04E5530436F8D0092834A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D04E5E30436F8D0092834A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36D04E5830436F8D0092834A /* NifflerUITests */,
+			);
+			name = NifflerUITests;
+			packageProductDependencies = (
+			);
+			productName = NifflerUITests;
+			productReference = 36D04E5730436F8D0092834A /* NifflerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		746853752B0CAE9700E48DFE /* Niffler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7468539C2B0CAE9900E48DFE /* Build configuration list for PBXNativeTarget "Niffler" */;
@@ -186,9 +233,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					36D04E5630436F8D0092834A = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = 746853752B0CAE9700E48DFE;
+					};
 					746853752B0CAE9700E48DFE = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -211,11 +262,19 @@
 			projectRoot = "";
 			targets = (
 				746853752B0CAE9700E48DFE /* Niffler */,
+				36D04E5630436F8D0092834A /* NifflerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		36D04E5530436F8D0092834A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		746853742B0CAE9700E48DFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +288,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		36D04E5330436F8D0092834A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		746853722B0CAE9700E48DFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,7 +324,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		36D04E5E30436F8D0092834A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746853752B0CAE9700E48DFE /* Niffler */;
+			targetProxy = 36D04E5D30436F8D0092834A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		36D04E6030436F8D0092834A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niffler.NifflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Niffler;
+			};
+			name = Debug;
+		};
+		36D04E6130436F8D0092834A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niffler.NifflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Niffler;
+			};
+			name = Release;
+		};
 		7468539A2B0CAE9900E48DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -395,6 +509,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,6 +540,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,6 +557,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		36D04E5F30436F8D0092834A /* Build configuration list for PBXNativeTarget "NifflerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D04E6030436F8D0092834A /* Debug */,
+				36D04E6130436F8D0092834A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		746853712B0CAE9700E48DFE /* Build configuration list for PBXProject "Niffler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
