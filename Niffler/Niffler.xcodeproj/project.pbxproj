@@ -13,13 +13,6 @@
 		746853802B0CAE9900E48DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7468537F2B0CAE9900E48DFE /* Assets.xcassets */; };
 		746853832B0CAE9900E48DFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746853822B0CAE9900E48DFE /* Preview Assets.xcassets */; };
 		749E20F62B0CB0070045F4E3 /* Api in Frameworks */ = {isa = PBXBuildFile; productRef = 749E20F52B0CB0070045F4E3 /* Api */; };
-		74BDA22D2C614D47001B7630 /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDA22C2C614D47001B7630 /* BasePage.swift */; };
-		74BDA22F2C614D8D001B7630 /* SpendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDA22E2C614D8D001B7630 /* SpendsUITests.swift */; };
-		74BDA2312C615BB7001B7630 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDA2302C615BB7001B7630 /* BaseTestCase.swift */; };
-		74BDA2342C615BDD001B7630 /* NewSpendPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDA2332C615BDD001B7630 /* NewSpendPage.swift */; };
-		74BDA2362C615BFA001B7630 /* SpendsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDA2352C615BFA001B7630 /* SpendsPage.swift */; };
-		74BDA2382C615C11001B7630 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDA2372C615C11001B7630 /* LoginPage.swift */; };
-		74D55B7A2BE12B9600AEF67D /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B792BE12B9600AEF67D /* LoginUITests.swift */; };
 		A90083552BBA870400EB9D32 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90083542BBA870400EB9D32 /* AppColors.swift */; };
 		A90083592BBA8CD100EB9D32 /* YoungSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A90083582BBA8CD100EB9D32 /* YoungSerif-Regular.ttf */; };
 		A91CF2C22BD1491700FDA3D7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CF2C12BD1491700FDA3D7 /* MainView.swift */; };
@@ -60,14 +53,7 @@
 		749E20F22B0CAF1D0045F4E3 /* Api */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Api; sourceTree = "<group>"; };
 		749E20F32B0CAFD60045F4E3 /* Niffler.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Niffler.xctestplan; sourceTree = "<group>"; };
 		74AA2FBC2B10C9F90070B8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		74BDA22C2C614D47001B7630 /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
-		74BDA22E2C614D8D001B7630 /* SpendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendsUITests.swift; sourceTree = "<group>"; };
-		74BDA2302C615BB7001B7630 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
-		74BDA2332C615BDD001B7630 /* NewSpendPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpendPage.swift; sourceTree = "<group>"; };
-		74BDA2352C615BFA001B7630 /* SpendsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendsPage.swift; sourceTree = "<group>"; };
-		74BDA2372C615C11001B7630 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		74D55B772BE12B9600AEF67D /* NifflerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NifflerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74D55B792BE12B9600AEF67D /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		A90083542BBA870400EB9D32 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		A90083582BBA8CD100EB9D32 /* YoungSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YoungSerif-Regular.ttf"; sourceTree = "<group>"; };
 		A91CF2C12BD1491700FDA3D7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -113,7 +99,6 @@
 				749E20F32B0CAFD60045F4E3 /* Niffler.xctestplan */,
 				749E20F22B0CAF1D0045F4E3 /* Api */,
 				746853782B0CAE9700E48DFE /* Niffler */,
-				74D55B782BE12B9600AEF67D /* NifflerUITests */,
 				746853772B0CAE9700E48DFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,36 +136,6 @@
 				746853822B0CAE9900E48DFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		74BDA2322C615BD8001B7630 /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				74BDA22C2C614D47001B7630 /* BasePage.swift */,
-				74BDA2372C615C11001B7630 /* LoginPage.swift */,
-				74BDA2352C615BFA001B7630 /* SpendsPage.swift */,
-				74BDA2332C615BDD001B7630 /* NewSpendPage.swift */,
-			);
-			path = Pages;
-			sourceTree = "<group>";
-		};
-		74BDA2392C615C44001B7630 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				74BDA2302C615BB7001B7630 /* BaseTestCase.swift */,
-				74D55B792BE12B9600AEF67D /* LoginUITests.swift */,
-				74BDA22E2C614D8D001B7630 /* SpendsUITests.swift */,
-			);
-			path = Test;
-			sourceTree = "<group>";
-		};
-		74D55B782BE12B9600AEF67D /* NifflerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				74BDA2392C615C44001B7630 /* Test */,
-				74BDA2322C615BD8001B7630 /* Pages */,
-			);
-			path = NifflerUITests;
 			sourceTree = "<group>";
 		};
 		A9620BDF2B579A5500602D2C /* Helpers */ = {
@@ -354,13 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D55B7A2BE12B9600AEF67D /* LoginUITests.swift in Sources */,
-				74BDA2382C615C11001B7630 /* LoginPage.swift in Sources */,
-				74BDA22D2C614D47001B7630 /* BasePage.swift in Sources */,
-				74BDA22F2C614D8D001B7630 /* SpendsUITests.swift in Sources */,
-				74BDA2312C615BB7001B7630 /* BaseTestCase.swift in Sources */,
-				74BDA2362C615BFA001B7630 /* SpendsPage.swift in Sources */,
-				74BDA2342C615BDD001B7630 /* NewSpendPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
