@@ -24,7 +24,14 @@
         "name" : "NifflerTests"
       }
     },
-    
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Niffler.xcodeproj",
+        "identifier" : "36D04E5630436F8D0092834A",
+        "name" : "NifflerUITests"
+      }
+    },
     {
       "skippedTests" : [
         "AuthTests\/test_registerAndAuthorize()"
